@@ -1,0 +1,7857 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ByMe,宋-作品</title>
+<link  rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<link  href="style/main.css"  rel="stylesheet"/>
+
+<script src="jq/jquery-1.8.3.min.js"></script>
+<script src="js/sea.js"></script>
+
+</head>
+<body>
+<div class="wraper-top">
+  <div class="top-info">
+    <div class="username fll" id="admin"><a href="#">ray点滴</a>
+  
+      <div class="hidden-username" id="hidden_user">
+        <div class="hidden-top">
+          <div class="h-username-img fll"> <img src="images/member.jpg" /> </div>
+          <div class="h-username-info flr"> <a href="#" class="exit">退出</a> <span class="flr">|</span> <a href="#" class="account-admin">账号管理</a>
+            <p class="jianju"></p>
+            <p><a href="#"><strong>查看我的会员特权</strong></a> </p>
+            <p><a href="#">我的成长</a></p>
+          </div>
+        </div>
+        <div class="hidden-bottom"> <a href="#"> <img src="images/hidden-user-icon1.png"/> </a> <a href="#"> <img src="images/hidden-user-icon2.png"/></a> </div>
+      </div>
+    </div>
+    <div class="menu-news fll" id="news">
+      <p><img  src="images/news.jpg"/>消息<span>1</span></p>
+      <div class="hidden-news" id="hidden_news">
+        <h2>未读新消息</h2>
+        <div class="read-info">
+          <h2> <span class="f_weight">你的书架</span> <span>收到了</span>
+            <sapn class="orange">
+            1</span> <span>本书</span> </h2>
+          <div class="h-news-middle"> <a href="#"><img src="images/news-book.jpg" /></a>
+            <p>精通CSS：高级Web标准解决方案</p>
+            <h3><a href="#">去看看</a></h3>
+          </div>
+        </div>
+        <div class="read-info-bottom"> <a href="#" >查看全部</a> <span class="near">|</span> <a href="#" >卖家消息</a> </div>
+      </div>
+    </div>
+    <div class="menu-hd fll"> <a href="#">手机逛淘宝</a> </div>
+    <div class="menu-xc fll"><a href="#"><img src="images/xuanchuan.gif"/></a></div>
+    <div class="top-right-wrap flr">
+      <div class="menu-hd fll" id="mytaobao"> <a href="#">我的淘宝</a>
+        <div class="hidden-Mytaobao" id="h-mytaobao"> 
+        <a href="#">已买到的宝贝</a> 
+        <a href="#">新欢</a>
+        <a href="#">拾货</a> 
+        <a href="#">我的足迹</a> 
+        <a href="#">我的上新</a>
+        <a href="#">我的优惠</a>
+           </div>
+      </div>
+      <div class="menu-hd fll" id="shoppingCar">
+        <p> <img src="images/shopcar.jpg"/>购物车<span>0</span></p>
+        <div class="hidden-shopInfo" id="hidden-shopcar">
+          <p>您购物车里暂时没有任何宝贝。</p>
+          <p><a href="#">查看我的购物车</a></p>
+        </div>
+      </div>
+      <div class="menu-hd fll" id="favorite"><span class="star" id="xing">★</span> <a href="#">收藏夹</a>
+        <div class="hidden-favorite" id="hidden_favorite"> 
+        <a href="#">收藏的宝贝</a>
+         <a href="#">收藏的店铺</a>
+          </div>
+      </div>
+      <div class="menu-fenlei fll"> <a href="#">商品分类</a> </div>
+      <div class="menu-hd fll" id="solder_center"> <a href="#">卖家中心</a>
+        <div class="solder-center" id="hidden_solder_center"> <a href="#">免费开店</a> <a href="#">已卖出的宝贝</a> <a href="#">出售中的宝贝</a> <a href="#">卖家服务市场</a> <a href="#">卖家培训中心</a> </div>
+      </div>
+      <div class="menu-hd fll"> <a href="#">联系客服</a> </div>
+      <div class="menu-hd fll"> <a href="#">网站导航</a> </div>
+    </div>
+  </div>
+</div>
+ <div class="head-search" id="scoll_top">
+  <div class="logo-hd fll">
+    <h2><a href="#">淘宝网</a></h2>
+  </div>
+  <div class="search-bd" id="s_b">
+    <div class="search-tab fll">
+      <ul id="select">
+        <li class="org-color">宝贝</li>
+        <li class="tianmao">天猫</li>
+        <li class="dp">店铺</li>
+      </ul>
+      <div class="threeIcon"></div>
+    </div>
+    <div class="search-input fll">
+     <form method="get" class="f-form">
+       <input type="text" placeholder="搜异形魔方试试，让手指和大脑一起跳舞"  class="s-input fll"/>
+        <input type="button" value="搜索" class="s-button fll" id="btn" />
+      </form>
+    </div> 
+  </div>
+</div>
+<div id="wrap">
+  <div class="top_main">
+    <div class="logo fll"> <img src="images/logo.jpg" class="fll"/> </div>
+    <div class="top_middle fll">
+      <div class="search-box fll">
+        <div class="search-toggle fll" id="baobeiDiv">
+        <div class="toggle-Icon"></div>
+        <a href="#" id="baby">宝贝</a>
+        <a href="#" class="dianpu" id="hidden_shop">店铺</a>
+        </div>
+        <input class="search-in fll"  type="text" placeholder="输入你想要的东西试试"/>
+        <input class="search-btn fll" type="button" value="搜索"/>
+      </div>
+      <div class="search_tip fll"><a href="#">高级搜索</a></div>
+      <div class="other-search fll">
+        <ul>
+          <li><a href="#">女士凉鞋</a></li>
+          <li><a href="#">男士T恤 </a></li>
+          <li><a href="#">连衣裙</a></li>
+          <li><a href="#">时尚女包</a></li>
+          <li><a href="#">女士T恤</a></li>
+          <li><a href="#">雪纺衫</a></li>
+          <li><a href="#">中老年女装</a></li>
+          <li><a href="#">风衣</a></li>
+          <li><a href="#">童装</a></li>
+          <li><a href="#">孕妇装</a></li>
+          <li><a  href="#">运动套装</a></li>
+          <li><a href="#">打底裤</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li class="tip_more"><a href="#">更多&gt;</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="erweima flr" id="erweima">
+    <span>扫我赢钱</span>
+    <a href="#" id="ae">
+     <s></s>
+    </a>
+    <img src="images/erweima0.gif"/></div>
+  </div>
+</div>
+<!--logo,banner行结束-->
+<div class="content-top">
+  <div class="sidebar fll">
+    <h3 class="bt">商品服务分类</h3>
+    <div class="sidebar-info" id="wrap_sidebar">
+      
+        <div class="item-list">
+          <h3><a href="#">服饰内衣</a></h3>
+         <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">鞋包配饰</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+       </div>
+        <div class="item-list">
+          <h3><a href="#">运动户外</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">珠宝手表</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+       <div class="item-list">
+          <h3><a href="#">手机数码</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">家电办公</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">护肤彩妆</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+       </div>
+        <div class="item-list">
+          <h3><a href="#">母婴用品</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+       <div class="item-list">
+          <h3><a href="#">甲方居家</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">家具建材</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">美食特产</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">日用百货</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+        <div class="item-list">
+          <h3><a href="#">汽车摩托</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+       </div>
+        <div class="item-list">
+          <h3><a href="#">文化娱乐</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+       </div>
+        <div class="item-list">
+          <h3><a href="#">本地生活</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+      </div>
+        <div class="item-list">
+          <h3><a href="#">虚拟服务</a></h3>
+          <div class="hidden-item">
+  <div class="item-title">
+    <h4> <a href="#">淘宝女人</a> <a href="#">最in女人</a> <a href="#">淘宝男人</a> <a href="#">女生搭配</a></h4>
+  </div>
+  <div class="nav-leftBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+ <div class="nav-rightBox fll">
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+  
+  <div class="sell-box fll">
+  <h6>印记女装</h6>
+  <div class="a-box">
+  <p>
+    <a href="#">连衣裙</a>
+    <span>|</span>
+    <a href="#">裤子</a>
+    <span>|</span>
+    <a href="#">小西裤</a>
+    <span>|</span>
+    <a href="#">长袖衬衫</a>
+    <span>|</span>
+    <a href="#">夏季外套</a>
+   </p>
+   <p>
+    <a href="#">针织衫</a>
+    <span>|</span>
+    <a href="#">毛衣</a>
+    <span>|</span>
+    <a href="#">长袖T恤</a>
+    <span>|</span>
+    <a href="#">卫衣</a>
+    <span>|</span>
+    <a href="#">雪绒线</a><span>|</span>
+    <a href="#">针织衫</a>
+   </p>
+   <p>
+    <a href="#">半身全</a>
+    <span>|</span>
+    <a href="#">风衣</a>
+    <span>|</span>
+    <a href="#">类似雪纺</a>
+    <span>|</span>
+    <a href="#">毛衣外套</a>
+    <span>|</span>
+    <a href="#">棒球服</a>
+   </p>
+   <p>
+    <a href="#">牛仔装</a>
+    <span>|</span>
+    <a href="#">礼服</a>
+    <span>|</span>
+    <a href="#">婚纱</a>
+    <span>|</span>
+    <a href="#">大码</a>
+    <span>|</span>
+    <a href="#">Zara</a>
+    <span>|</span>
+    <a href="#">长裙</a>
+   </p>
+  </div>
+  </div>
+ </div>
+</div>
+        </div>
+      
+    </div>
+  </div>
+  
+  <!--左边标题结束-->
+  <div class="content-middlewrap flr">
+    <div class="content-nav flr">
+      <ul>
+        <li><a href="#" id="a1">天猫</a></li>
+        <li><a href="#" id="a2">聚划算</a></li>
+        <li><a href="#" id="a3">二手</a></li>
+        <span class="line-a">|</span>
+        <li><a href="#" id="a4">拍卖</a></li>
+        <li><a href="#" id="a4">一淘</a></li>
+        <li><a href="#" id="a4">电器城</a></li>
+        <li><a href="#" id="a4">Hitao粉妆</a></li>
+        <li><a href="#" id="a4">旅行</a></li>
+        <li><a href="#" id="a4">云手机</a></li>
+        <li><a href="#" id="a4">特色中国</a></li>
+        <li><a href="#" class="tuijian"><img src="images/ad.gif"/></a></li>
+        <li class="flr xiaofei"><A href="#">消费者保障</A></li>
+      </ul>
+    </div>
+  </div>
+  <div class="show-box fll">
+    <div class="content">
+        <div class="picWrap">
+      <ul class="picList">
+        <li><div><a href="#"><img src="images/5.jpg"></a></div></li>
+         <li><div><a href="#"><img src="images/6.png"/></a></div></li>
+          <li><div><a href="#"><img src="images/4.jpg"></a></div></li>
+           <li><div><a href="#"><img  src="images/2.jpg"></a></div></li>
+      </ul>
+      </div>
+        <div class="point">
+        <ul>
+        <li class="point-orange"></li>   
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+      </div>
+      <div class="sanjiao it-left"></div>
+      <div class="sanjiao it-right"></div>
+    </div>
+    <a href="#" ><img src="images/6.jpg"></a>
+    <div class="content-down">
+    <div class="picWrap">
+      <ul class="picList">
+        <li><div class="pic"><a href="#"><img src="images/03.png"/></a></div>
+       
+        <div class="pic"><a href="#"><img src="images/04.png"/></a></div>
+         <div class="pic"><a href="#"><img src="images/02.jpg"/></a></div>
+        <div class="pic"><a href="#"><img src="images/07.jpg"/></a></div>
+        </li>
+       
+        <li><div class="pic"><a href="#"><img src="images/03.png"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/02.jpg"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/04.png"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/01.png"/></a></div>
+        </li>
+       
+        <li><div class="pic"><a href="#"><img src="images/03.png"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/02.jpg"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/04.png"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/01.png"/></a></div>
+        </li>
+       
+        <li><div class="pic"><a href="#"><img src="images/03.png"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/02.jpg"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/04.png"/></a></div>
+        <div class="pic"><a href="#"><img  src="images/01.png"/></a></div>
+        </li>
+       </ul>
+       </div>
+      <div class="point">
+        <ul>
+        <li class="point-orange"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+      </div>
+      <div class="sanjiao it-left"></div>
+      <div class="sanjiao it-right"></div>
+    </div>
+    <a href="#"><img src="images/15.jpg"/></a> </div>
+  <div class="right-sidebar flr">
+    <div class="info-box">
+      <div class="notice" id="notice">
+        <ul>
+          <li class="active"><a href="#" >公告</a></li>
+          <li><a href="#">规则</a></li>
+          <li><a href="#">论坛</a></li>
+          <li><a href="#">安全</a></li>
+          <li style="border-right:none;"><a href="#">公益</a></li>
+        </ul>
+      </div>
+      <div id="tab_con">
+        <div class="hidden-box" style="display:block;">
+         <a href="#" class="textcolor">球迷席卷1700万罐啤酒</a> 
+         <a href="#">淘宝改变了生活方式</a> 
+         <a href="#">民营快递共享邮政网点</a> 
+         <a href="#">治理雾霾也能云计算</a> 
+         </div>
+        <div class="hidden-box" > 
+        <a href="#" class="textcolor">[重要] 成人主图发布</a> 
+        <a href="#">[重要] 皮衣抽检变更</a> 
+        <a href="#">[重要] 拍卖规则变更</a> 
+        <a href="#">[重要] 虚假交易新规</a> 
+        </div>
+        <div class="hidden-box"> 
+        <a href="#" class="textcolor">[聚焦] 金牌卖小小鸟航</a>
+         <a href="#">[功能] 店铺数据直播间</a> 
+         <a href="#">[话题] 借影响力做推广</a>
+         <a href="#">[聚焦] 详情页调整公告</a> 
+         </div>
+        <div class="hidden-box" > 
+        <a href="#" class="textcolor">卡单、失效都是骗人的</a> 
+        <a href="#">卖家防范红包欺诈提醒</a> 
+        <a href="#">更换收货地址的陷阱！</a> 
+        <a href="#">注意骗子的技术升级了！</a> 
+        </div>
+        <div class="hidden-box" > 
+         <a href="#" class="textcolor">公益宝贝全新上线详解</a>
+         <a href="#">大众评审赢公益金公仔</a> 
+         <a href="#">来做会帮人的超级英雄</a> 
+         <a href="#">公益机构淘宝开店攻略</a> 
+         </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="member-img fll"> 
+      <img src="images/member.jpg"/> 
+      </div>
+      <div class="member-ft fll">
+        <p class="user-name"> <a href="#">hi,<strong>ray点滴</strong></a> </p>
+        <p class="member-middle"> <a href="#">领淘金币抵钱</a> <a href="#">会员俱乐部</a> </p>
+      </div>
+      <div class="member-bd flr"> 
+      <a href="#" class="login">登录</a> 
+      <a href="../注册页面/reg/index.html">免费注册</a> 
+      <a href="#">免费开店</a>
+       </div>
+      
+      <div class="clear"></div>
+    </div>
+    <div class="conve">
+      <div class="conve-hd" id="conve_hd">
+        <h3>便民服务</h3>
+        <ul>
+          <li> <a href="#"> <img src="images/phone.png"/><br/>
+            <p>话费</p>
+            </a>
+            <div class="service-box" id="servie_ft">
+              <div class="service-head"> <a href="#" class="service-b-color">话费充值</a> 
+              <a href="#">流量充值</a> </div>
+              <div class="service">
+                <div class="phone-in"> <span class="fll">号码</span>
+                  <input type="text" class="num-input fll" placeholder="手机号、固话号" />
+                </div>
+                <div class="mianzhi-in"> <span class="fll">面值</span>
+                  <input type="text" class="mianzhi-input fll" value="50" />
+                </div>
+                <div class="shoujia fll">售价</div>
+                <div class="meiyuanfu fll">¥</div>
+                <strong class="shoujia-num fll">49-49.8</strong>
+                <div class="clear"></div>
+                <a href="#" class="liji">立即充值</a> 
+                <a href="#" class="dingqi">定期充值</a> 
+                <a href="#" class="chongzhi-tip">诺基亚XL独家首发</a> </div>
+            </div>
+          </li>
+          <li> <a href="#"> <img src="images/game.png"/><br/>
+            <p>游戏</p>
+            </a> </li>
+          <li> <a href="#"> <img src="images/plane.png"/><br/>
+            <p>旅行</p>
+            </a> </li>
+          <li> <a href="#"> <img src="images/save.png"/><br/>
+            <p>保险</p>
+            </a> </li>
+          <li> <a href="#"> <img  src="images/18.png"/><br/>
+            <p>彩票</p>
+            </a> </li>
+          <li> <a href="#"> <img  src="images/move.png"/><br/>
+            <p>电影票</p>
+            </a> </li>
+          <li> <a href="#"> <img src="images/eat.png"/><br/>
+            <p>点外卖</p>
+            </a> </li>
+          <li> <a href="#"> <img  src="images/money.png"/><br/>
+            <p>理财</p>
+            </a> </li>
+          <li> <a href="#"> <img  src="images/book.png"/><br/>
+            <p>电子书</p>
+            </a> 
+            </li>
+          <li> <a href="#"> <img  src="images/miusc.png"/><br/>
+            <p>音乐</p>
+            </a> 
+              </li>
+          <li> <a href="#"> <img  src="images/bag.png"/><br/>
+            <p>水电煤</p>
+            </a> 
+              </li>
+          <li> <a href="#"> <img src="images/a.png"/><br/>
+            <p>请期待</p>
+            </a> 
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hot-point">
+  <div class="hot-point-title fll">
+     <h1>当前热点</h1>
+</div>
+   <div class="hot-point-content fll">
+     <a href="#">热卖凉鞋</a>
+     <a href="#">清凉一夏</a>
+     <a href="#">新鲜土货</a>
+     <a href="#">美妆特卖</a>
+     <a href="#">包赚不赔</a>
+     <a href="#">夏日美裙</a>
+     </div>
+     <div class="hot-point-title fll">
+     <h1>精彩推荐</h1>
+</div>
+   <div class="hot-point-content fll">
+     <a href="#">买房送车</a>
+     <a href="#">闺蜜淘宝</a>
+     <a href="#">天猫国际</a>
+     <a href="#">夏装大促</a>
+     <a href="#">余额宝</a>
+     <a href="#">整点秒杀</a>
+       </div>
+     <div class="hot-point-banner fll">
+       <a href="#"><img src="images/hot-point1.png"/></a>
+        </div>
+       <div class="hot-point-banner fll">
+       <a href="#" ><img src="images/hot-point2.jpg"/></a>
+        </div>
+</div>
+<div class="screen-bd">
+<div class="s-main fll">
+<div class="pink-dress-wrap fll">
+   <div class="screen-title">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+           <a href="#">
+             <img src="images/screen-rightbar.jpg"/>
+             </a>
+      </div>
+     </div>
+     <div class="pink-dress-wrap fll wrap-purple2">
+   <div class="screen-title purple">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+           <a href="#">
+     <img src="images/r-hot2.gif"/>
+     </a>
+      </div>
+     </div>
+     <div class="pink-dress-wrap fll green">
+   <div class="screen-title green3">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+           <a href="#">
+     <img  src="images/screen-r3.jpg"/>
+     </a>
+      </div>
+     </div>
+     <div class="pink-dress-wrap fll pink4">
+   <div class="screen-title">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+           <a href="#">
+     <img src="images/r-hot4.jpg"/></a>
+      </div>
+     </div>
+
+   <div class="cat-Banner">
+   <a href="#"><img src="images/TB11Atg.jpg"/></a>
+   </div>
+   
+   <div class="pink-dress-wrap fll">
+   <div class="screen-title">
+       <h3>
+        <a href="#">手机数码</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">手机放暑 "价"！</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">3C配件</a>
+    <span class="fll">|</span>
+    <a href="#">手机大全</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+           <a href="#">
+     <img src="images/screen-rightbar.jpg"/>
+     </a>
+      </div>
+     </div> 
+     <div class="pink-dress-wrap fll wrap-purple2">
+   <div class="screen-title purple">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+           <a href="#">
+     <img src="images/screen-rightbar.jpg"/>
+     </a>
+      </div>
+     </div>
+     <div class="pink-dress-wrap fll green">
+   <div class="screen-title green3">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr">
+     <a href="#"><img src="images/screen-rightbar.jpg"/></a>
+      </div>
+     </div>
+     <div class="pink-dress-wrap fll pink4">
+   <div class="screen-title">
+       <h3>
+        <a href="#">女装</a>
+        <span class="point">·</span>
+        <a href="#">男装</a>
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll">
+            <a href="#">世界杯"疯"搭</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">最in女装</a>
+    <span class="fll">|</span>
+    <a href="#">型男请进</a>
+       </div>
+        </div>
+        <div class="wrap-dress-middle fll">
+   <div class="list-item fll">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+           <div class="list-item fll item-bottom">
+     <ul>
+      <li class="item-hd"><a href="#">新品女装</a></li>
+      <li><a href="#">衬衫</a></li>
+      <li><a href="#">吊带</a></li>
+      <li><a href="#">防晒衣</a></li>
+      <li><a href="#">大码</a></li>
+      <li><a href="#">时尚套装</a></li>
+         </ul>
+      <ul>
+      <li class="item-hd text-c"><a href="#">连衣裙</a></li>
+      <li><a href="#">印花</a></li>
+      <li><a href="#">雪纺</a></li>
+      <li><a href="#">半身裙</a></li>
+      <li><a href="#">套装裙</a></li>
+      <li><a href="#">女士内衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">T恤</a></li>
+      <li><a href="#">全棉</a></li>
+      <li><a href="#">短袖T</a></li>
+      <li><a href="#">开衫</a></li>
+      <li><a href="#">韩版</a></li>
+      <li><a href="#">雪纺上衣</a></li>
+         </ul>
+          <ul>
+      <li class="item-hd"><a href="#">裤子</a></li>
+      <li><a href="#">牛仔</a></li>
+      <li><a href="#">短裤</a></li>
+      <li><a href="#">七分裤</a></li>
+      <li><a href="#">欧美站</a></li>
+      <li><a href="#">秀潮搭</a></li>
+         </ul>
+           </div>
+          </div>
+           <div class="s-main-right flr"><a href="#">
+     <img src="images/screen-rightbar.jpg"/></a>
+      </div>
+     </div>
+     <div class="cat-Banner">
+     <a href="#">
+      <img src="images/banners-hot2.png"/>
+     </a>
+     </div>
+     <div class="cat-wrap fll">
+       <div class="screen-title cat-hd">
+       <h3>
+        <a href="#">家具家纺</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll brown-title">
+            <a href="#">独爱原木/家具良品</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">家纺布艺</a>
+    <span class="fll">|</span>
+    <a href="#">时尚家具</a>
+       </div>
+        </div>
+    <div class="cat-bd">
+      <div class="cat-List fll">
+        <ul>
+          <li class="list-head"><a href="#">床上用品</a></li>
+          <li><a href="#">四件套</a></li>
+          <li><a href="#">空调被</a></li>
+          <li><a href="#">记忆枕</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li><a href="#" class="orange-text">凉席</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#" class="orange-text">居家布艺</a></li>
+          <li><a href="#">十字绣</a></li>
+          <li><a href="#">沙发垫</a></li>
+          <li><a href="#" class="orange-text">窗帘</a></li>
+          <li><a href="#">拖鞋</a></li>
+          <li><a href="#">毛巾</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">客厅家具</a></li>
+          <li><a href="#" class="orange-text">沙发</a></li>
+          <li><a href="#">茶几</a></li>
+          <li><a href="#">电视柜</a></li>
+          <li><a href="#">懒人沙发</a></li>
+          <li><a href="#">鞋柜</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">卧室家具</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#" class="orange-text">衣柜</a></li>
+          <li><a href="#">书柜</a></li>
+          <li><a href="#">电脑桌</a></li>
+          <li><a href="#">高低床</a></li>
+          <li><a href="#">架类</a></li>
+        </ul>
+         <ul>
+          <li class="list-head"><a href="#">家具饰品</a></li>
+          <li><a href="#" class="orange-text">摆件</a></li>
+          <li><a href="#">装饰画</a></li>
+          <li><a href="#">照片墙</a></li>
+          <li><a href="#">花瓶花器</a></li>
+          <li><a href="#">闹钟</a></li>
+       </ul>
+       <ul>
+          <li class="list-head"><a href="#">特色工艺</a></li>
+          <li><a href="#">木雕</a></li>
+          <li><a href="#">壁式</a></li>
+          <li><a href="#" class="orange-text">墙贴</a></li>
+          <li><a href="#">民间工艺</a></li>
+          <li><a href="#">中国结</a></li>
+        </ul>
+        </div>
+      <div class="cat-BannerBrown flr">
+        <a  href="#"><img src="images/catBanner1.png"/></a>
+        </div>
+    </div>
+     </div>
+     <div class="cat-wrap fll">
+       <div class="screen-title cat-hd">
+       <h3>
+        <a href="#">家装设计</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll brown-title">
+            <a href="#">家装建材一购齐全</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">品牌家装</a>
+    <span class="fll">|</span>
+    <a href="#">时尚家具</a>
+       </div>
+        </div>
+    <div class="cat-bd">
+      <div class="cat-List fll">
+        <ul>
+          <li class="list-head"><a href="#">床上用品</a></li>
+          <li><a href="#">四件套</a></li>
+          <li><a href="#">空调被</a></li>
+          <li><a href="#">记忆枕</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li><a href="#" class="orange-text">凉席</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#" class="orange-text">居家布艺</a></li>
+          <li><a href="#">十字绣</a></li>
+          <li><a href="#">沙发垫</a></li>
+          <li><a href="#" class="orange-text">窗帘</a></li>
+          <li><a href="#">拖鞋</a></li>
+          <li><a href="#">毛巾</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">客厅家具</a></li>
+          <li><a href="#" class="orange-text">沙发</a></li>
+          <li><a href="#">茶几</a></li>
+          <li><a href="#">电视柜</a></li>
+          <li><a href="#">懒人沙发</a></li>
+          <li><a href="#">鞋柜</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">卧室家具</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#" class="orange-text">衣柜</a></li>
+          <li><a href="#">书柜</a></li>
+          <li><a href="#">电脑桌</a></li>
+          <li><a href="#">高低床</a></li>
+          <li><a href="#">架类</a></li>
+        </ul>
+         <ul>
+          <li class="list-head"><a href="#">家具饰品</a></li>
+          <li><a href="#" class="orange-text">摆件</a></li>
+          <li><a href="#">装饰画</a></li>
+          <li><a href="#">照片墙</a></li>
+          <li><a href="#">花瓶花器</a></li>
+          <li><a href="#">闹钟</a></li>
+       </ul>
+       <ul>
+          <li class="list-head"><a href="#">特色工艺</a></li>
+          <li><a href="#">木雕</a></li>
+          <li><a href="#">壁式</a></li>
+          <li><a href="#" class="orange-text">墙贴</a></li>
+          <li><a href="#">民间工艺</a></li>
+          <li><a href="#">中国结</a></li>
+        </ul>
+        </div>
+      <div class="cat-BannerBrown flr">
+        <a  href="#"><img src="images/cat-Banner2.jpg"/></a>
+        </div>
+    </div>
+     </div>
+     <div class="cat-wrap fll bottom-marg">
+       <div class="screen-title cat-hd cat-bg-green">
+       <h3>
+        <a href="#">全球美食</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll brown-title">
+            <a href="#">新鲜松茸89.9包邮</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">地方特产</a>
+    <span class="fll">|</span>
+    <a href="#">全球美食</a>
+       </div>
+        </div>
+    <div class="cat-bd">
+      <div class="cat-List fll">
+        <ul>
+          <li class="list-head"><a href="#">床上用品</a></li>
+          <li><a href="#">四件套</a></li>
+          <li><a href="#">空调被</a></li>
+          <li><a href="#">记忆枕</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li><a href="#" class="orange-text">凉席</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#" class="orange-text">居家布艺</a></li>
+          <li><a href="#">十字绣</a></li>
+          <li><a href="#">沙发垫</a></li>
+          <li><a href="#" class="orange-text">窗帘</a></li>
+          <li><a href="#">拖鞋</a></li>
+          <li><a href="#">毛巾</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">客厅家具</a></li>
+          <li><a href="#" class="orange-text">沙发</a></li>
+          <li><a href="#">茶几</a></li>
+          <li><a href="#">电视柜</a></li>
+          <li><a href="#">懒人沙发</a></li>
+          <li><a href="#">鞋柜</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">卧室家具</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#" class="orange-text">衣柜</a></li>
+          <li><a href="#">书柜</a></li>
+          <li><a href="#">电脑桌</a></li>
+          <li><a href="#">高低床</a></li>
+          <li><a href="#">架类</a></li>
+        </ul>
+         <ul>
+          <li class="list-head"><a href="#">家具饰品</a></li>
+          <li><a href="#" class="orange-text">摆件</a></li>
+          <li><a href="#">装饰画</a></li>
+          <li><a href="#">照片墙</a></li>
+          <li><a href="#">花瓶花器</a></li>
+          <li><a href="#">闹钟</a></li>
+       </ul>
+       <ul>
+          <li class="list-head"><a href="#">特色工艺</a></li>
+          <li><a href="#">木雕</a></li>
+          <li><a href="#">壁式</a></li>
+          <li><a href="#" class="orange-text">墙贴</a></li>
+          <li><a href="#">民间工艺</a></li>
+          <li><a href="#">中国结</a></li>
+        </ul>
+        </div>
+      <div class="cat-BannerBrown flr">
+        <a  href="#"><img src="images/cat-Banner3.jpeg"/></a>
+        </div>
+    </div>
+     </div>
+     <div class="cat-wrap fll bottom-marg">
+       <div class="screen-title cat-hd">
+       <h3>
+        <a href="#">百货日用</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll brown-title">
+            <a href="#">纳有什么问题！</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">当季热门</a>
+    <span class="fll">|</span>
+    <a href="#">厨房餐饮</a>
+       </div>
+        </div>
+    <div class="cat-bd">
+      <div class="cat-List fll">
+        <ul>
+          <li class="list-head"><a href="#">床上用品</a></li>
+          <li><a href="#">四件套</a></li>
+          <li><a href="#">空调被</a></li>
+          <li><a href="#">记忆枕</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li><a href="#" class="orange-text">凉席</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#" class="orange-text">居家布艺</a></li>
+          <li><a href="#">十字绣</a></li>
+          <li><a href="#">沙发垫</a></li>
+          <li><a href="#" class="orange-text">窗帘</a></li>
+          <li><a href="#">拖鞋</a></li>
+          <li><a href="#">毛巾</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">客厅家具</a></li>
+          <li><a href="#" class="orange-text">沙发</a></li>
+          <li><a href="#">茶几</a></li>
+          <li><a href="#">电视柜</a></li>
+          <li><a href="#">懒人沙发</a></li>
+          <li><a href="#">鞋柜</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">卧室家具</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#" class="orange-text">衣柜</a></li>
+          <li><a href="#">书柜</a></li>
+          <li><a href="#">电脑桌</a></li>
+          <li><a href="#">高低床</a></li>
+          <li><a href="#">架类</a></li>
+        </ul>
+         <ul>
+          <li class="list-head"><a href="#">家具饰品</a></li>
+          <li><a href="#" class="orange-text">摆件</a></li>
+          <li><a href="#">装饰画</a></li>
+          <li><a href="#">照片墙</a></li>
+          <li><a href="#">花瓶花器</a></li>
+          <li><a href="#">闹钟</a></li>
+       </ul>
+       <ul>
+          <li class="list-head"><a href="#">特色工艺</a></li>
+          <li><a href="#">木雕</a></li>
+          <li><a href="#">壁式</a></li>
+          <li><a href="#" class="orange-text">墙贴</a></li>
+          <li><a href="#">民间工艺</a></li>
+          <li><a href="#">中国结</a></li>
+        </ul>
+        </div>
+      <div class="cat-BannerBrown flr">
+        <a  href="#"><img src="images/cat-Banner4.jpeg"/></a>
+        </div>
+    </div>
+     </div>
+     <div class="cat-Banner">
+     <a href="#">
+      <img src="images/banners-hot3.jpg" />
+     </a>
+     </div>
+     
+     <div class="cat-wrap fll bottom-marg">
+       <div class="screen-title cat-hd blueColor">
+       <h3>
+        <a href="#">家具家纺</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll brown-title">
+            <a href="#">独爱原木/家具良品</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">家纺布艺</a>
+    <span class="fll">|</span>
+    <a href="#">时尚家具</a>
+       </div>
+        </div>
+    <div class="cat-bd">
+      <div class="cat-List fll">
+        <ul>
+          <li class="list-head"><a href="#">床上用品</a></li>
+          <li><a href="#">四件套</a></li>
+          <li><a href="#">空调被</a></li>
+          <li><a href="#">记忆枕</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li><a href="#" class="orange-text">凉席</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#" class="orange-text">居家布艺</a></li>
+          <li><a href="#">十字绣</a></li>
+          <li><a href="#">沙发垫</a></li>
+          <li><a href="#" class="orange-text">窗帘</a></li>
+          <li><a href="#">拖鞋</a></li>
+          <li><a href="#">毛巾</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">客厅家具</a></li>
+          <li><a href="#" class="orange-text">沙发</a></li>
+          <li><a href="#">茶几</a></li>
+          <li><a href="#">电视柜</a></li>
+          <li><a href="#">懒人沙发</a></li>
+          <li><a href="#">鞋柜</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">卧室家具</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#" class="orange-text">衣柜</a></li>
+          <li><a href="#">书柜</a></li>
+          <li><a href="#">电脑桌</a></li>
+          <li><a href="#">高低床</a></li>
+          <li><a href="#">架类</a></li>
+        </ul>
+         <ul>
+          <li class="list-head"><a href="#">家具饰品</a></li>
+          <li><a href="#" class="orange-text">摆件</a></li>
+          <li><a href="#">装饰画</a></li>
+          <li><a href="#">照片墙</a></li>
+          <li><a href="#">花瓶花器</a></li>
+          <li><a href="#">闹钟</a></li>
+       </ul>
+       <ul>
+          <li class="list-head"><a href="#">特色工艺</a></li>
+          <li><a href="#">木雕</a></li>
+          <li><a href="#">壁式</a></li>
+          <li><a href="#" class="orange-text">墙贴</a></li>
+          <li><a href="#">民间工艺</a></li>
+          <li><a href="#">中国结</a></li>
+        </ul>
+        </div>
+      <div class="cat-BannerBrown flr">
+        <a href="#"><img src="images/cat-banner-blue.jpg"></a>
+        </div>
+    </div>
+     </div>
+     
+     <div class="cat-wrap fll bottom-marg">
+       <div class="screen-title cat-hd cat-bg-green">
+       <h3>
+        <a href="#">全球美食</a>
+        
+         </h3>
+          <div class="screen-activity fll">
+          <em></em>
+          <div class="activity-bg fll brown-title">
+            <a href="#">新鲜松茸89.9包邮</a>
+           </div>
+           </div>
+    <div class="dress-tags flr">
+    <a href="#">地方特产</a>
+    <span class="fll">|</span>
+    <a href="#">全球美食</a>
+       </div>
+        </div>
+    <div class="cat-bd">
+      <div class="cat-List fll">
+        <ul>
+          <li class="list-head"><a href="#">床上用品</a></li>
+          <li><a href="#">四件套</a></li>
+          <li><a href="#">空调被</a></li>
+          <li><a href="#">记忆枕</a></li>
+          <li><a href="#">蚊帐</a></li>
+          <li><a href="#" class="orange-text">凉席</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#" class="orange-text">居家布艺</a></li>
+          <li><a href="#">十字绣</a></li>
+          <li><a href="#">沙发垫</a></li>
+          <li><a href="#" class="orange-text">窗帘</a></li>
+          <li><a href="#">拖鞋</a></li>
+          <li><a href="#">毛巾</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">客厅家具</a></li>
+          <li><a href="#" class="orange-text">沙发</a></li>
+          <li><a href="#">茶几</a></li>
+          <li><a href="#">电视柜</a></li>
+          <li><a href="#">懒人沙发</a></li>
+          <li><a href="#">鞋柜</a></li>
+        </ul>
+        <ul>
+          <li class="list-head"><a href="#">卧室家具</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#" class="orange-text">衣柜</a></li>
+          <li><a href="#">书柜</a></li>
+          <li><a href="#">电脑桌</a></li>
+          <li><a href="#">高低床</a></li>
+          <li><a href="#">架类</a></li>
+        </ul>
+         <ul>
+          <li class="list-head"><a href="#">家具饰品</a></li>
+          <li><a href="#" class="orange-text">摆件</a></li>
+          <li><a href="#">装饰画</a></li>
+          <li><a href="#">照片墙</a></li>
+          <li><a href="#">花瓶花器</a></li>
+          <li><a href="#">闹钟</a></li>
+       </ul>
+       <ul>
+          <li class="list-head"><a href="#">特色工艺</a></li>
+          <li><a href="#">木雕</a></li>
+          <li><a href="#">壁式</a></li>
+          <li><a href="#" class="orange-text">墙贴</a></li>
+          <li><a href="#">民间工艺</a></li>
+          <li><a href="#">中国结</a></li>
+        </ul>
+        </div>
+      <div class="cat-BannerBrown flr">
+        <a href="#"><img src="images/cat-banner-6.png"></a>
+        </div>
+    </div>
+     </div>
+     
+     <div class="cat-Banner bottom-marg">
+     <a href="#">
+      <img src="images/Banners-hot4.jpg">
+     </a>
+     </div>
+    </div>
+<div class="s-rightbar flr">
+ <dl class="discover">
+   <dt><s class="goods-title"></s></dt>
+   <dl class="content-wrap" id="dlContent">
+   <div class="goods-item" id="margin-top0">
+   <a href="#">
+   <img src="images/item160x160.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>时尚夏季潮流透气</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    同学都说好看，我觉得也挺好看
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>24</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img  src="images/item-1001.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>林弯弯帆船鞋夏季</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    鞋子的质量很好，帮同学买
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>50</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img  src="images/item-1002.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>夏装男士短袖韩版</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    料子不错  穿起来挺舒服
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>36</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img src="images/item-1003.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>男士短袖T恤打领</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    给男朋友买了两件 质量还行
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>5</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img  src="images/item-1004.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>春季单鞋男士帆布</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    没有试穿，家里人代收的出差
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>12</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   <div class="wall" id="wall">
+    <a>
+     <img  src="images/item100-01.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★210</div>
+    
+    </div>
+    </a>
+    <a>
+     <img  src="images/item100-02.jpg"/>
+     <div class="wall-item-desc">
+     <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★210</div>
+     </div>
+    </a>
+    <a>
+     <img  src="images/item100-03.jpg"/>
+    
+    <div class="wall-item-desc">
+    
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★110</div></div>
+    </a>
+    <a>
+     <img  src="images/item100-04.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★50</div>
+    </div>
+    </a>
+    <a>
+     <img  src="images/item100-05.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★56</div>
+    </div>
+    </a>
+    <a>
+     <img  src="images/item100-06.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★88</div>
+    </div>
+    </a>
+    <a>
+     <img  src="images/item100-07.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★75</div>
+    </div>
+    </a>
+    <a>
+     <img  src="images/item100-08.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★156</div>
+    </div>
+    </a>
+    <a>
+     <img  src="images/item100-10.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★84</div>
+    </div>
+    </a>
+      </div>
+      
+   </dl>
+  
+   <dd class="change-wrap">
+    <s class="change-icon"></s>
+   <span>换一批试试</span>
+   </dd>
+   
+    <dt class="dt-title2"><s class="goods-title haohuo"></s></dt>
+   <dl class="content-wrap">
+   <div class="goods-item">
+   <a href="#">
+   <img src="images/item160x160.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>时尚夏季潮流透气</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    同学都说好看，我觉得也挺好看
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>24</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img  src="images/item-1001.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>林弯弯帆船鞋夏季</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    鞋子的质量很好，帮同学买
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>50</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img  src="images/item-1002.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>夏装男士短袖韩版</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    料子不错  穿起来挺舒服
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>36</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img src="images/item-1003.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>男士短袖T恤打领</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    给男朋友买了两件 质量还行
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>5</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   
+   <div class="goods-item">
+   <a href="#">
+   <img  src="images/item-1004.jpg" class="fll"/>
+   <div class="item-desc">
+   <h4>春季单鞋男士帆布</h4>
+   <div class="item-comment">
+   <s class="shuanyin-icon"></s>
+    没有试穿，家里人代收的出差
+    <s class="shuangyin-right"></s>
+   </div>
+   <p class="item-count">
+    <em>12</em>
+     收藏
+      </p>
+   </div>
+   </a>
+   </div>
+   <div class="wall" id="wall_two">
+   <a href="#">
+     <img  src="images/item100-01.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★210</div>
+    
+    </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-02.jpg"/>
+     <div class="wall-item-desc">
+     <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★210</div>
+     </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-03.jpg"/>
+    
+    <div class="wall-item-desc">
+    
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★110</div></div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-04.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★50</div>
+    </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-05.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★56</div>
+    </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-06.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★88</div>
+    </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-07.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★75</div>
+    </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-08.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★156</div>
+    </div>
+    </a>
+    <a href="#">
+     <img  src="images/item100-10.jpg"/>
+    
+    <div class="wall-item-desc">
+    <p>原装浪琴瑰丽系列石英女表</p>
+    <div>★84</div>
+    </div>
+    </a>
+      </div>
+      
+   </dl>
+  
+   <dd class="change-wrap">
+    <s class="change-icon"></s>
+   <span>换一批试试</span>
+   </dd>
+ </dl>
+ <div class="discover-banner">
+   <a href="#"><img src="images/banner-rightbar-bottom.jpg"/></a>
+ </div>
+</div>
+</div>
+<div class="channel" id="channel">
+ <div class="channel-item">
+   <div class="channel-hd">
+    <a href="#">
+     <s>星店</s>
+     <em>明星开店在这里</em>
+     </a>
+     </div>
+     <div class="channel-main">
+     <a href="#">
+      <img src="images/channel1.jpg"/>
+      <span class="desc">
+       <em>美女总裁张婷</em>
+       <span>浪漫七夕 有礼才完美</span>
+       </span>
+     </a>
+     </div>
+     <div class="channel-extra">
+      <div class="pics">
+       <a href="#">
+        <img src="images/channel-pic1.jpg" />
+        <span>熊月老</span>
+       </a>
+       <a href="#">
+        <img src="images/channel-pic2.jpg" />
+        <span>十元牧场</span>
+       </a>
+      </div>
+     </div>
+     <p class="channel-tag">
+      <a href="#">杨澜珠宝</a><span>|</span>
+      <a href="#">田园风</a><span>|</span>
+      <a href="#">夏日特卖</a>
+     </p>
+     <p class="channel-tag padd-center">
+      [<a href="#"  class="orange-text">明星同款</a>]
+       <a href="#">大腕开店</a>
+     </p>
+   </div>
+ <div class="channel-item">
+   <div class="channel-hd">
+    <a href="#">
+     <s>星店</s>
+     <em>足不出户 淘遍全球</em>
+     </a>
+     </div>
+     <div class="channel-main">
+     <a href="#">
+      <img src="images/channel2.png"/>
+      <span class="desc">
+       <em>打折季 嗨翻天！</em>
+       <span>欧洲夏日大促扫货直播</span>
+       </span>
+     </a>
+     </div>
+     <div class="channel-extra">
+      <div class="pics">
+       <a href="#">
+        <img src="images/channel21.jpg"/>
+        <span>韩国神奇</span>
+       </a>
+       <a href="#">
+        <img src="images/channel22.png" />
+        <span>猜猜这是啥</span>
+       </a>
+      </div>
+     </div>
+     <p class="channel-tag">
+      <img src="images/countrys.jpg"/>
+     </p>
+     <p class="channel-tag padd-center">
+      [<a href="#"  class="orange-text">海外团</a>]
+       <a href="#">欧洲大牌折扣季</a>
+     </p>
+   </div>
+ <div class="channel-item">
+   <div class="channel-hd">
+    <a href="#">
+     <s>星店</s>
+     <em>珍品投资 捡漏拾宝</em>
+     </a>
+     </div>
+     <div class="channel-main">
+     <a href="#">
+      <img src="images/channel3.png"/>
+      <span class="desc">
+       <em>东南轿车 2.9万拍卖！</em>
+       <span>法院低价处理资产</span>
+       </span>
+     </a>
+     </div>
+     <div class="channel-extra">
+      <div class="pics">
+       <a href="#">
+        <img src="images/channel31.jpg" />
+        <span>水墨精品</span>
+       </a>
+       <a href="#">
+        <img src="images/channel32.jpg" />
+        <span>天佰福玉髓</span>
+       </a>
+      </div>
+     </div>
+     <p class="channel-tag">
+      <a href="#" class="avg-a">低价房源</a>
+      <a href="#" class="avg-a">高端数码</a>
+      <a href="#" class="avg-a">名家捡漏</a>
+     </p>
+     <p class="channel-tag padd-center">
+      [<a href="#"  class="orange-text">豪奢</a>]
+       <a href="#">葡萄美酒一元起拍</a>
+     </p>
+   </div>
+ <div class="channel-item">
+   <div class="channel-hd">
+    <a href="#">
+     <s>星店</s>
+     <em>专享低价 包邮</em>
+     </a>
+     </div>
+     <div class="channel-main">
+     <a href="#">
+      <img src="images/channel4.png"/>
+      <span class="desc">
+       <em>夏日个护专场 1折起</em>
+       <span>精选优质好货 包邮！</span>
+       </span>
+     </a>
+     </div>
+     <div class="channel-extra">
+      <div class="pics">
+       <a href="#">
+        <img  src="images/channel41.png" />
+        <span>炫酷太阳镜</span>
+       </a>
+       <a href="#">
+        <img src="images/channel42.png"/>
+        <span>儿童连衣裙</span>
+       </a>
+      </div>
+     </div>
+     <p class="channel-tag">
+       <a href="#" class="avg-a">10元包邮</a>
+      <a href="#" class="avg-a">包包配饰</a>
+      <a href="#" class="avg-a">大码女装</a>
+     </p>
+     <p class="channel-tag padd-center">
+      [<a href="#"  class="orange-text">凉鞋</a>]
+       <a href="#">水钻方扣平底鞋</a>
+     </p>
+   </div>
+ <div class="channel-item">
+   <div class="channel-hd">
+    <a href="#">
+     <s>星店</s>
+     <em>美人美货美图</em>
+     </a>
+     </div>
+     <div class="channel-main">
+     <a href="#">
+      <img src="images/channel5.png"/>
+      <span class="desc">
+       <em>秒杀东大门的67款美搭</em>
+       <span>轻松穿出名媛范儿</span>
+       </span>
+     </a>
+     </div>
+     <div class="channel-extra">
+      <div class="pics">
+       <a href="#">
+        <img src="images/channel51.jpg" />
+        <span>雪纺55美搭</span>
+       </a>
+       <a href="#">
+        <img src="images/channel52.jpg" />
+        <span>少女娃娃衫</span>
+       </a>
+      </div>
+     </div>
+     <p class="channel-tag">
+      <a href="#" class="avg-a">洋裙56套</a>
+      <a href="#" class="avg-a">气质网纱</a>
+      <a href="#" class="avg-a">当红美鞋</a>
+     </p>
+     <p class="channel-tag padd-center">
+      [<a href="#"  class="orange-text">名媛范</a>]
+       <a href="#">女神最爱雪纺美搭</a>
+     </p>
+   </div>
+ <div class="channel-item">
+   <div class="channel-hd">
+    <a href="#">
+     <s>星店</s>
+     <em>暑期依然低价</em>
+     </a>
+     </div>
+     <div class="channel-main">
+     <a href="#">
+      <img src="images/channel7.png"/>
+      <span class="desc">
+       <em>【门票购票立减】</em>
+       <span>夏日清爽码上游</span>
+       </span>
+     </a>
+     </div>
+     <div class="channel-extra">
+      <div class="pics">
+       <a href="#">
+        <img src="images/channel-pic1.jpg" />
+        <span>熊月老</span>
+       </a>
+       <a href="#">
+        <img src="images/channel62.jpg" />
+        <span>十元牧场</span>
+       </a>
+      </div>
+     </div>
+     <p class="channel-tag">
+      <a href="#" class="avg-a">清新厦门</a>
+      <a href="#" class="avg-a">五彩云南</a>
+      <a href="#" class="avg-a">清凉三亚</a>
+     </p>
+     <p class="channel-tag padd-center">
+      [<a href="#"  class="orange-text">旅游团</a>]
+       <a href="#">99元畅玩一夏</a>
+     </p>
+   </div>
+
+</div>
+<div class="sale">
+ <div class="sale-hd">
+  <h3>热卖单品</h3>
+  <div class="sale-t2t">
+    <a href="#">登山包</a>
+    <a href="#">户外包</a>
+    <a href="#">包包</a>
+    <a href="#">斜跨包</a>
+    <a href="#">学生鞋</a>
+    <a href="#">布娃娃</a>
+    <a href="#">双肩包</a>
+    <a href="#">懒人鞋</a>
+    <a href="#">泰迪熊</a>
+    <a href="#">白色鞋</a>
+    <a href="#">公仔</a>
+    <a href="#">毛绒鞋</a>
+    <a href="#">exo鞋</a>
+    <a href="#">小包</a>
+    <a href="#">手拿包</a>
+    <a href="#">帆布包</a>
+    <a href="#">更多</a>
+  </div>
+ 
+ </div>
+  <ul class="sale-bd">
+   <li>
+     <a href="#">
+     <img src="images/sale-img1.jpg"/>
+     <span>热销10万 好评率99%的面膜</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>19.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>69.00</strong>
+     <i>|</i>
+     <em>月销8337件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img  src="images/sale-img2.jpg"/>
+     <span>浅白色怀旧男修身小脚牛</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>168.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>188.00</strong>
+     <i>|</i>
+     <em>月销30件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img3.jpg"/>
+     <span>可外穿家居服圆领短袖短</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>42.25.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>169.00</strong>
+     <i>|</i>
+     <em>月销36件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img4.jpg"/>
+     <span>韩版夏季莫代尔蕾丝镂</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>19.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>68.00</strong>
+     <i>|</i>
+     <em>月销10147件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img5.jpg"/>
+     <span>2014夏季款透气真皮凉</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>109.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>299.00</strong>
+     <i>|</i>
+     <em>月销2562件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img6.jpg"/>
+     <span>今夏非买不可的时段香水</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>29.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>128.00</strong>
+     <i>|</i>
+     <em>月销4205件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img7.jpg"/>
+     <span>大牌时尚牛皮!撞色条纹手</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>358.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>1030.00</strong>
+     <i>|</i>
+     <em>月销532件</em>
+     </p>
+   </li>
+  </ul>
+   <ul class="sale-bd">
+   <li>
+     <a href="#">
+     <img src="images/sale-img8.jpg"/>
+     <span>经典!男士真皮正装皮鞋</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>299.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>797.00</strong>
+     <i>|</i>
+     <em>月销333件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img  src="images/sale-img9.jpg"/>
+     <span>2014新茶叶正宗珍稀安</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>29.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>46.80</strong>
+     <i>|</i>
+     <em>月销830件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img10.jpg"/>
+     <span>2014新茶叶正宗珍稀安</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>29.80</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>46.80</strong>
+     <i>|</i>
+     <em>月销830件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img11.jpg"/>
+     <span>喷彩带婚庆结婚用品</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>1.99</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>2.00</strong>
+     <i>|</i>
+     <em>月销10147件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img12.jpg"/>
+     <span>男士手拿包真皮 大容</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>199.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>769.00</strong>
+     <i>|</i>
+     <em>月销637件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img13.jpg"/>
+     <span>2014新款男士绵羊皮皮衣</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>168.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>688.00</strong>
+     <i>|</i>
+     <em>月销45件</em>
+     </p>
+   </li>
+   <li>
+     <a href="#">
+     <img src="images/sale-img14.jpg"/>
+     <span>马来西亚三合一白咖啡王</span>
+     </a>
+     <p class="mod-hd">
+       <span>¥</span>
+       <strong>35.00</strong>
+       <i></i>
+       </p>
+     <p class="mod-hd2">
+     <span>¥</span>
+     <strong>46.00</strong>
+     <i>|</i>
+     <em>月销58件</em>
+     </p>
+   </li>
+  </ul>
+</div>
+<div class="adv">
+ <div class="adv-left fll">
+  <a href="#"><img src="images/adv11.jpg"/></a>
+ </div>
+ <div class="adv-middle fll">
+  <a href="#"><img src="images/adv2.jpg"/></a>
+ </div>
+ <div class="adv-right flr">
+  <a href="#"><img src="images/adv3.jpg"/></a>
+ </div>
+</div>
+<div class="Help">
+  <div class="moden">
+   <h4>
+    <i class="xiaofei-baozhang"></i>
+    <span class="x-baozhang">消费者保障</span>
+   </h4>
+   <ul>
+     <li><a href="#">保障范围</a></li>
+     <li><a href="#">退货退款流程</a></li>
+     <li><a href="#">服务中心</a></li>
+     <li><a href="#">更多特色服务</a></li>
+     
+   </ul>
+  </div>
+  <div class="moden">
+   <h4>
+    <i class="newer-to-go"></i>
+    <span class="n-newer-to-go">新手上路</span>
+   </h4>
+   <ul>
+     <li><a href="#">新手专区</a></li>
+     <li><a href="#">消费警示</a></li>
+     <li><a href="#">交易安全</a></li>
+     <li><a href="#">24小时在线帮助</a></li>
+     <li><a href="#">免费开店</a></li>
+     
+   </ul>
+  </div>
+  <div class="moden">
+   <h4>
+    <i class="pay-style"></i>
+    <span class="p-pay-style">付款方式</span>
+   </h4>
+   <ul>
+     <li><a href="#">支付宝快捷支付</a></li>
+     <li><a href="#"> 支付宝卡（现金）付款</a></li>
+     <li><a href="#">支付宝余额付款</a></li>
+     <li><a href="#"> 货到付款</a></li>
+     
+   </ul>
+  </div>
+  <div class="moden ttDiv">
+   <h4>
+    <i class="tt"></i>
+    <span class="tt-special">淘宝特色</span>
+   </h4>
+   <ul>
+     <li><a href="#">淘宝指数</a></li>
+     <li><a href="#">淘公仔</a></li>
+     <li><a href="#">手机淘宝</a></li>
+     <li><a href="#">旺信</a></li>
+      <li><a href="#">大众评审</a></li>
+     
+   </ul>
+  </div>
+</div>
+<div class="footer">
+ <p>
+  <a href="#">阿里巴巴集团</a><span>|</span>
+  <a href="#">淘宝网</a><span>|</span>
+  <a href="#">天猫</a><span>|</span>
+  <a href="#">聚划算</a><span>|</span>
+  <a href="#">全球速卖通</a><span>|</span>
+  <a href="#">阿里巴巴国际交易市场</a><span>|</span>
+  <a href="#">1688</a><span>|</span>
+  <a href="#">阿里妈妈</a><span>|</span>
+  <a href="#">阿里云计算</a><span>|</span>
+  <a href="#">YunOS</a><span>|</span>
+  <a href="#">万网</a><span>|</span>
+  <a href="#">淘宝旅行</a><span>|</span>
+  <a href="#">虾米</a><span>|</span>
+  <a href="#">来往</a><span>|</span>
+  <a href="#">支付宝</a>
+ </p>
+</div>
+<div class="footer-bd">
+  <p>
+   <a href="#">关于淘宝</a>
+   <a href="#">合作伙伴</a>
+   <a href="#">营销中心</a>
+   <a href="#">廉政举报</a>
+   <a href="#">联系客服</a>
+   <a href="#">开放平台</a>
+   <a href="#">诚征英才</a>
+   <a href="#">联系我们</a>
+   <a href="#">网站地图</a>
+   <a href="#">法律声明</a>
+   <span>© 2003-2014 Taobao.com 版权所有</span>
+  </p>
+  <p>
+  <span>网络文化经营许可证：</span>
+   <a href="#">文网文[2010]040号</a>
+   <b>|</b>
+   <span>增值电信业务经营许可证：</span>
+   <a href="#">浙B2-20080224-1</a>
+   <b>|</b>
+   <span>信息网络传播视听节目许可证：</span>
+   <a href="#">1109364号</a>
+</p>
+</div>
+<div class="friendLink">
+ <a href="#" class="flink-img"><img src="images/friendLink1.gif"/></a>
+ <a href="#" class="ggManager"><i>工商管理</i></a>
+ <a href="#" class="ggManager2"><i>工商监管</i></a>
+ <a href="#" class="weather-org"><i>气候组织</i></a>
+ <a href="#" class="bb-web"><i>备案网站</i></a>
+</div>
+<div class="feedback" id="feedback">
+<a href="javascript:void(0)" class="comeback" id="cb">
+ <div class="hidden-fb" id="h_fb" >
+   <em>返回顶部</em>
+</div>
+</a>
+<a href="#" class="a-idea" id="idea">
+  <div class="hidden-fb" id="h_idea">
+    <em>反馈意见</em>
+  </div>
+</a>
+</div>
+
+ <script type="text/javascript">
+          seajs.use('./js/main');
+  </script>
+</body>
+</html>
