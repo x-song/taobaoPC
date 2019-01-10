@@ -7,7 +7,7 @@ define(function(require, exports, module){
 	 $("#baobeiDiv").hover(function(){
 	 	$("#hidden_shop").show();
 	 },function(){
-	$("#hidden_shop").hidden();
+	 $("#hidden_shop").hidden();
 	 });
 	 $("#ae").click(function(){
 	 	$("#erweima").css("display","none");
@@ -26,13 +26,13 @@ define(function(require, exports, module){
 	 		$(this).find("div").hide();
 	 	})
 
-	$("#admin,#news,#mytaobao,#shoppingCar,#favorite,#solder_center").hover(function(){
+	 $("#admin,#news,#mytaobao,#shoppingCar,#favorite,#solder_center").hover(function(){
 		$(this).addClass("adminClassNameOver").removeClass("adminClassNameOut");
 		$(this).children("div").show();
 		},function(){
 			$(this).children("div").hide();
 			$(this).addClass("adminClassNameOut").removeClass("adminClassNameOver");
-		});
+	 });
 
 	$("#channel").children("div").hover(function(){
 		$(this).css({"z-index":2,"border":"1px solid #f40"});
