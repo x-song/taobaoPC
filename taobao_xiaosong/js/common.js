@@ -1,9 +1,7 @@
 //公用方法
 
 define(function(require, exports, module){
-
    var common = {
-   	
    "hoverShow":function(dom){
    	dom.css("display","block");
 

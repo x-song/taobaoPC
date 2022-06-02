@@ -1,9 +1,5 @@
 define(function(require, exports, module){
-
-
-
 	 var common = require('./common.js').common; 
-
 	 $("#baobeiDiv").hover(function(){
 	 	$("#hidden_shop").show();
 	 },function(){
